@@ -86,7 +86,7 @@ normalmixture <- function(x,k,mu,sigma,lambda,eps=1e-6,max.iter=5000) {
 }
 
 # getting data from txt file
-setwd("/Users/zikunchen/Desktop")
+setwd("/Users/zikunchen/Desktop/GitHub/STA410/A4")
 stamp <- read.table("stamp.txt", fill = TRUE)
 stamp <- unname(unlist(stamp))
 stamp <- stamp[!is.na(stamp)]
